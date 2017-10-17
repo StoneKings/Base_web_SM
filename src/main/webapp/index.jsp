@@ -20,6 +20,7 @@
         $.ajax({
             url:'/user/addUser',
 
+
             type:'post',
             data:{
                 name:$('#name').val()
